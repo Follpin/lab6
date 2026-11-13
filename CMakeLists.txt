@@ -12,7 +12,7 @@ else()
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pthread")
 endif()
 
-include_directories(include)
+include_directories(.)
 
 add_library(lab6_core
     action.cpp
